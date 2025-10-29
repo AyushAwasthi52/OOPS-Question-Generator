@@ -197,29 +197,6 @@ cp env.example .env
 
 Edit `.env` file with your configuration:
 ```env
-# Database Configuration
-MONGODB_URI=mongodb://localhost:27017/oops_interview
-DB_NAME=oops_interview
-
-# Server Configuration
-PORT=3000
-NODE_ENV=development
-
-# Gemini API Configuration
-GEMINI_API_KEY=your_gemini_api_key_here
-GEMINI_API_URL=https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent
-
-# Session Configuration
-SESSION_TIMEOUT=3600000
-MAX_QUESTIONS_PER_SESSION=20
-
-# Rate Limiting
-RATE_LIMIT_WINDOW_MS=900000
-RATE_LIMIT_MAX_REQUESTS=100
-
-# CORS Configuration
-CORS_ORIGIN=http://localhost:3000
-```
 
 4. **Seed the database with sample questions**
 ```bash
@@ -350,5 +327,6 @@ oops-backend/
 ## License
 
 MIT License - see LICENSE file for details
-#   O O P S - Q u e s t i o n - G e n e r a t o r  
+#   O O P S - Q u e s t i o n - G e n e r a t o r 
+ 
  
